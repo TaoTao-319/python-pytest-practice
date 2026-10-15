@@ -1,0 +1,107 @@
+{
+  "project": "python-pytest-practice",
+  "sources": [
+    {
+      "source": "26 10 01 Step08/src/qa_utils/cart.py",
+      "target": "src/qa_utils/cart.py",
+      "source_sha256": "2512ff7ba96d85752a36d17aca227c077a80c6b07139b2727d6046d3ba9471b5",
+      "target_sha256": "e525f27aeb719870f9fd9d557c173c99ff3e9be862b6c46f045c28684ec7a1fc"
+    },
+    {
+      "source": "26 10 01 Step08/src/qa_utils/validators.py",
+      "target": "src/qa_utils/validators.py",
+      "source_sha256": "f189cdaf2c28217361557a3383062832cee3e7ab1340c2b55c4afafc9ff5d8b1",
+      "target_sha256": "bee0d0fd89281c17b2f9f5b1e8630fd3c6b6c7d7e2de4f49824d5306cc7f9eee"
+    },
+    {
+      "source": "26 10 01 Step08/src/qa_utils/__init__.py",
+      "target": "src/qa_utils/__init__.py",
+      "source_sha256": "5da72d069bfdf20ac9b51458d6444ab24a8578f2bfb4d3c84c20fa3528bb818f",
+      "target_sha256": "6aec9c8e21e86252568a98904b7817b04680abfe4eaee4d4ca70d41891f3c7ce"
+    },
+    {
+      "source": "26 10 01 Step08/tests/conftest.py",
+      "target": "tests/conftest.py",
+      "source_sha256": "a0c02c831172ef4e7bb7758368d105c843b5e563030ed19ce86fb4fe18605ac8",
+      "target_sha256": "2984f3b959ac6fcbd30fd7233908484311fef8a5b78b40df1a35f52fae9da253"
+    },
+    {
+      "source": "26 10 01 Step08/tests/test_cart.py",
+      "target": "tests/test_cart.py",
+      "source_sha256": "33d071d20e5cbe4b3b5707a48d12001b2572924a7db8f952d8af55c8ac6ea431",
+      "target_sha256": "a3d6bee9c489ebacbc90c0d7dd4505ae8c7f4954f2a9dd5fcee374aac8908fb4"
+    },
+    {
+      "source": "26 10 01 Step08/tests/test_cart_contract.py",
+      "target": "tests/test_cart_contract.py",
+      "source_sha256": "1b8e4b6c648790ea2555835fc89ae409bddad502a334685ea52f46bbd294612b",
+      "target_sha256": "25dac61e713103a26763b55ac29d78779c931f1bd5a0f29d3b59129e4d5acd37"
+    },
+    {
+      "source": "26 10 01 Step08/tests/test_cart_edge_cases.py",
+      "target": "tests/test_cart_edge_cases.py",
+      "source_sha256": "81db2cb952c42541d1b9f86ec9eeb37957b55c051e4648a67d536de39760f4be",
+      "target_sha256": "354d780db0b6cee77804f420468558a92f56541bb54d206bdc32df177302ab71"
+    },
+    {
+      "source": "26 10 01 Step08/tests/test_validators.py",
+      "target": "tests/test_validators.py",
+      "source_sha256": "659bacb23920e6449ff807eb0c0cd176c7a25a973f6fb98f0edd622118e95ed7",
+      "target_sha256": "c703ecec211530b2920629a30bb93b2ff0fc13e56eb61e72e80cadbbc9732c73"
+    },
+    {
+      "source": "26 10 01 Step08/examples/failure_example.py",
+      "target": "examples/failure_example.py",
+      "source_sha256": "5806eeffc4b6524e7a6f251768738593a573cbb7d6c7ee158a4b6f88eebd8b4c",
+      "target_sha256": "78aeb62882497f0728c28fb7fbfd8a05154e75cea122d9e56655027e2f8df9b2"
+    },
+    {
+      "source": "26 10 01 Step08/pytest.ini",
+      "target": "pytest.ini",
+      "source_sha256": "0c4e99f0214aa22b315fdf377d676d95df8e5d23e8533797f2f16b88ba9f8676",
+      "target_sha256": "c26ce2a50a52ff8c1b6a1a4e279337c83536d9df73c2df0c3538ee11b51b6770"
+    },
+    {
+      "source": "26 10 01 Step08/requirements.txt",
+      "target": "requirements.txt",
+      "source_sha256": "93c4ab5f175d24229e46ec70a8ecaeb6db8b36e3f54d8005808044c060acbc92",
+      "target_sha256": "93c4ab5f175d24229e46ec70a8ecaeb6db8b36e3f54d8005808044c060acbc92"
+    },
+    {
+      "source": "26 10 01 Step08/demo.py",
+      "target": "demo.py",
+      "source_sha256": "eb3dc99e299e4dcb8414028be327a976b45db10af5e0d119eeac69a002fd917f",
+      "target_sha256": "9ae1dd311170f6b430da146338cffc4f35e56383e6193b73f08d9a0347902387"
+    },
+    {
+      "source": "26 10 01 Step08/tools/verify_project.py",
+      "target": "scripts/verify_project.py",
+      "source_sha256": "de96b103081d5d5cd13686ebeb6dc26d14d5e3386a2c97c6db5354d0a1e5712c",
+      "target_sha256": "c9f45cb8061799bf4b2fccf03f41ae5688d122d87fa30e62912a24bd5a8bb17f"
+    },
+    {
+      "source": "26 09 29 Step05/basic_syntax.py",
+      "target": "examples/policies/basic_syntax.py",
+      "source_sha256": "faebb8b4d776dad75309180072eb75ad90e02d2eb9794a40bf88d96e48c7a959",
+      "target_sha256": "0d030d4bf12219241b60fe0148d25a2b9308635ec1d31ace598c20fa5495e7ff"
+    },
+    {
+      "source": "26 09 29 Step05/phone_validator.py",
+      "target": "examples/policies/phone_validator.py",
+      "source_sha256": "d2d5566f120570fc6b5e5e22a583ef3412ae5c25443b8e099cef0437b9d44f32",
+      "target_sha256": "eaf8d4e71c12666d3ee9c097bda63cfa5260b1d302a39facddcc454b72ab4a66"
+    },
+    {
+      "source": "26 09 29 Step05/password_validator.py",
+      "target": "examples/policies/password_validator.py",
+      "source_sha256": "32a894de441f87772abd825537cb92a051603b931b3c6d1d5a694cf8222be981",
+      "target_sha256": "ff5450c43be8904dd3c771f27f5125e6bea780aee1c47e44c05106529c6188bd"
+    },
+    {
+      "source": "26 09 30 Step06/src/validator.py",
+      "target": "examples/policies/username_validator.py",
+      "source_sha256": "67d2c446118c9fb47f60ba8bc5f03d136e73ed51a043162ef6c7a11a037d4e7a",
+      "target_sha256": "da7cb15b455089cb7eb484aa3cb7259f1129dc2ca10693f6c179ce714e9087df"
+    }
+  ]
+}
