@@ -1,0 +1,28 @@
+name: Temporary native-schedule control
+
+on:
+  schedule:
+    - cron: '2-57/5 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  timestamp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Record automatic trigger without repository checkout or secrets
+        env:
+          TRIGGER_EVENT: ${{ github.event_name }}
+          CRON_EXPRESSION: ${{ github.event.schedule }}
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime, timezone, timedelta
+          import os
+          print('event=' + os.environ['TRIGGER_EVENT'])
+          print('cron=' + os.environ['CRON_EXPRESSION'])
+          print('utc=' + datetime.now(timezone.utc).isoformat())
+          print('beijing=' + datetime.now(timezone(timedelta(hours=8))).isoformat())
+          print('comparison_only=True; no account credentials; no library requests')
+          PY
